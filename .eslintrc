@@ -1,0 +1,24 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "extends": [
+      "plugin:prettier/recommended",
+      "eslint:recommended"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "eqeqeq": "warn",
+      "prefer-destructuring":["warn"],
+      "prettier/prettier": [
+        "warn"
+      ]
+    }
+  }
